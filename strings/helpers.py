@@ -56,26 +56,18 @@ HELP_2 = """⚡ <u>**Perintah Streaming :**</u>
  3️⃣ Admin dan Pengguna Auth
 
 /pause or /cpause - Jeda streaming yang diputar.
-
 /resume or /cresume - Lanjutkan streaming yang dijeda.
-
 /mute or /cmute - Bisukan musik yang diputar.
-
 /unmute or /cunmute - Suarakan musik yang dibisukan.
-
 /skip or /cskip - Lewati musik yang sedang diputar.
-
 /stop or /cstop - Hentikan pemutaran musik.
-
 /shuffle or /cshuffle - Secara acak mengacak daftar putar yang antri.
-
 /seek or /cseek - Teruskan mencari musik sesuai durasi.
-
 /seekback or /cseekback - Kembali mencari musik sesuai durasi.
-
 /skip or /cskip [Nomor (contoh : 3)] : Melewati musik ke nomor antrian yang ditentukan.
 
-/loop or /cloop [enable/disable] or [Angka antara 1-10] : Bot memutar lagu yang sedang diputar menjadi 1-10 kali pada obrolan suara."""
+4️⃣ Loop
+/loop or /cloop [Angka antara 1-10] : Bot mengulagi lagu yang sedang diputar menjadi 1-10 kali pada obrolan suara. contoh : '/loop 3' bot akan mengulang lagu sebanyak 3 kali"""
 
 HELP_3 = """🤖 <u>**Perintah Bot :**</u>
 
