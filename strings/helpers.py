@@ -1,6 +1,6 @@
 HELP_1 = """✅ **<u>Perintah Admin :</u>**
 
-**Hanya Admin**.
+✅ **Pengelola Grup**.
 
 /pin [loud or notify] - Menyematkan pesan senyap atau beritahu anggota.
 /antich [on or off] - Mode anti Channel.
@@ -22,14 +22,14 @@ HELP_1 = """✅ **<u>Perintah Admin :</u>**
 /setwelcome [Pesan] - Mengatur pesan sambutan anggota masuk.
 /setgoodbye [Pesan] - Mengatur pesan perpisahan anggota keluar.
 /welcomehelp - Dapatkan format lengkap untuk setwelcome dan setgoodbye.
+
+✅ **Pengguna Auth**.
+
+Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di obrolan Anda.
+
 /auth [Username] - Tambahkan pengguna ke daftar AUTH grup.
 /unauth [Username] - Hapus pengguna dari daftar AUTH grup.
 /authusers - Periksa daftar AUTH grup."""
-
-
-
-
-
 HELP_2 = """✅ <u>**Perintah Streaming :**</u>
 Perintah yang tersedia = play , vplay , cplay
 Perintah ForcePlay = playforce , vplayforce , cplayforce
@@ -56,7 +56,7 @@ HELP_3 = """✅ <u>**Perintah Bot :**</u>
 
 /admins - Daftar admin atau staf Grup.
 /id - Dapatkan ID Grup [balas ke pengguna untuk mendapatkan ID pengguna].
-info - Dapatkan informasi tentang pengguna.
+/info - Dapatkan informasi tentang pengguna.
 /sg - Dapatkan riwayat nama pengguna.
 /tl "kode bahasa" - Menerjemahkan kalimat [/tl id Hello guys] atau balas ke pengguna.
 /stats - Dapatkan 10 Trek Teratas.
