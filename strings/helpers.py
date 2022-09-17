@@ -20,6 +20,12 @@ HELP_1 = """👨‍⚖️ **<u>Perintah Admin :</u>**
 /stop "kata kunci" - Menghapus kata kunci tertentu.
 /removeallfilters - Menghapus semua kata kunci.
 /filters - Mendapatkan kata kunci yang ditambahkan ke grup.
+**Contoh :** `/filter "owner"
+ Owner lagi tidur 😴. 
+ %%%
+ Hai ada yang bisa saya bantu? 
+ %%%
+ Owner akan segera mambalas pesan anda`
 
 3️⃣ **Setwelcome**
 
