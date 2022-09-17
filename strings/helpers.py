@@ -9,7 +9,6 @@ HELP_1 = """👨‍⚖️ **<u>Perintah Admin :</u>**
 /sban - Blokir pengguna secara diam-diam.
 /mute [username/balas pesan] - Bisukan pengguna.
 /unmute [username/balas pesan] - Batal bisukan pengguna.
-/all [Isi pesan] - Tandai semua anggota
 /cancel - Berhenti menandai anggota
 /warn - Memperingati pengguna
 /dwarn - Memperingati pengguna dan menghapus pesan
@@ -27,15 +26,7 @@ HELP_1 = """👨‍⚖️ **<u>Perintah Admin :</u>**
 /welcome on/off - Hidupkan atau matikan Pesan sambutan.
 /setwelcome [Pesan] - Mengatur pesan sambutan anggota masuk.
 /setgoodbye [Pesan] - Mengatur pesan perpisahan anggota keluar.
-/welcomehelp - Dapatkan format lengkap untuk setwelcome dan setgoodbye.
-
-4️⃣ **Pengguna Auth**
-
-Pengguna Auth dapat menggunakan perintah admin seperti .
-
-/auth [Username] - Tambahkan pengguna ke daftar Auth Grup.
-/unauth [Username] - Hapus pengguna dari daftar Auth Grup.
-/authusers - Periksa daftar Auth Grup."""
+/welcomehelp - Dapatkan format lengkap untuk setwelcome dan setgoodbye."""
 
 HELP_2 = """⚡ <u>**Perintah Streaming :**</u>
 
@@ -48,12 +39,11 @@ HELP_2 = """⚡ <u>**Perintah Streaming :**</u>
 2️⃣ Daftar Putar
 
 /playlist  - Periksa Daftar Putar tersimpan Anda di server.
-
 /deleteplaylist - Hapus semua yang disimpan di daftar putar Anda.
-
 /play - Mulai mainkan Daftar Putar tersimpan Anda dari Server.
+/queue or /cqueue - Periksa Daftar Antrian Streaming.
 
- 3️⃣ Admin dan Pengguna Auth
+3️⃣ Admin dan Pengguna Auth
 
 /pause or /cpause - Jeda streaming yang diputar.
 /resume or /cresume - Lanjutkan streaming yang dijeda.
@@ -67,17 +57,30 @@ HELP_2 = """⚡ <u>**Perintah Streaming :**</u>
 /skip or /cskip [Nomor (contoh : 3)] : Melewati musik ke nomor antrian yang ditentukan.
 
 4️⃣ Loop
+
 /loop or /cloop [Angka antara 1-10] : Bot mengulagi lagu yang sedang diputar menjadi 1-10 kali pada obrolan suara. contoh : '/loop 3' bot akan mengulang lagu sebanyak 3 kali"""
 
 HELP_3 = """🤖 <u>**Perintah Bot :**</u>
 
-/admins - Daftar admin atau Staf Grup.
-/id - Dapatkan ID Grup [balas ke pengguna untuk mendapatkan ID pengguna].
+1️⃣ Informasi
+
 /info - Dapatkan informasi tentang pengguna.
+/admins - Daftar admin atau Staf Grup.
+/report - Laporkan ke Admin
+/id - Dapatkan ID Grup [balas ke pengguna untuk mendapatkan ID pengguna].
 /sg - Dapatkan riwayat nama pengguna.
-/tl "kode bahasa" - Menerjemahkan kalimat contoh : /tl id Hello guys atau "balas ke pesan".
+/ping - Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
 /stats - Dapatkan 10 Trek Teratas.
+/speedtest - periksa kecepatan Bot di server.
 /sudolist - Periksa Pengguna Sudo.
+
+2️⃣ Tools
+
+/all 'pesan' atau 'balas pesan' - Menandai semua Anggota Grup.
+/tl 'kode bahasa' - Menerjemahkan kalimat contoh : '/tl id Hello guys' atau 'balas pesan'.
+
+3️⃣ Download
+
 /lyrics [Nama Lagu] - Mencari Lirik untuk lagu tertentu di web.
 /song [Nama Trek] or [YT Link] - Unduh apa pun dari youtube dalam format mp3 atau mp4.
 /player - Dapatkan Panel Mainkan interaktif."""
@@ -87,31 +90,14 @@ HELP_4 = """🗒 <u>**Perintah Ekstra :**</u>
 /start - Memulai Bot.
 /help  - Dapatkan Menu  Perintah dengan penjelasan rinci tentang perintah.
 /setting - Dapatkan pengaturan grup lengkap dengan tombol sebaris.
-/channelplay linked - Menghubungkan ke Channel yang terhubung ke Grup.
-/queue or /cqueue - Periksa Daftar Antrian Streaming.
-/ping - Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
 /quote - Mendapatkan kutipan secara acak.
 /image "kata kunci" - Cari gambar di google.
 /tgm - Balas ke media untuk dapatkan link Telegraph.
 /tgt - Balas ke teks untuk dapatkan link Telegraph.
 /json - Dapatkan info detail pengguna.
-/report, @admin - Balas pesan untuk melaporkan ke Admin
 /logo [teks/nama] - Membuat logo secara acak
 /wlogo [teks/nama] - Membuat logo keren
 /edit [balas ke media] - Edit foto"""
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 HELP_5 = """🔰 **<u>Tambah & Hapus Pengguna Sudo :</u>**
