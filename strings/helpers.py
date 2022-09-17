@@ -1,6 +1,6 @@
 HELP_1 = """👨‍⚖️ **<u>Perintah Admin :</u>**
 
-**Kelola grupmu dengan perintah berikut**.
+1️⃣ **Perintah Dasar**.
 
 /pin [loud or notify] - Menyematkan pesan senyap atau beritahu anggota.
 /antich [on or off] - Mode anti Channel.
@@ -14,31 +14,40 @@ HELP_1 = """👨‍⚖️ **<u>Perintah Admin :</u>**
 /warn - Memperingati pengguna
 /dwarn - Memperingati pengguna dan menghapus pesan
 /restart - Mulai ulang Bot untuk grup Anda.
+
+2️⃣ **Modul Filter**
+
 /filter "kata kunci" [Isi pesan balasan] - Tambahkan filter ke obrolan dan Bot akan membalas pesan setiap kata kunci disebutkan.
 /stop "kata kunci" - Menghapus kata kunci tertentu.
 /removeallfilters - Menghapus semua kata kunci.
 /filters - Mendapatkan kata kunci yang ditambahkan ke grup.
+
+3️⃣ **Setwelcome**
 /welcome on/off - Hidupkan atau matikan Pesan sambutan.
 /setwelcome [Pesan] - Mengatur pesan sambutan anggota masuk.
 /setgoodbye [Pesan] - Mengatur pesan perpisahan anggota keluar.
 /welcomehelp - Dapatkan format lengkap untuk setwelcome dan setgoodbye.
 
-🎩 **Pengguna Auth :**
+4️⃣ **Pengguna Auth**
 
 Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di obrolan Anda.
 
 /auth [Username] - Tambahkan pengguna ke daftar Auth Grup.
 /unauth [Username] - Hapus pengguna dari daftar Auth Grup.
 /authusers - Periksa daftar Auth Grup."""
+
 HELP_2 = """⚡ <u>**Perintah Streaming :**</u>
 
-play (audio) , vplay (video) , cplay, cvplay (channel)
+1️⃣ play (audio) , vplay (video) , cplay, cvplay (channel)
 
 /play or /vplay or /cplay  - Bot akan mulai memainkan kueri yang Anda berikan di obrolan suara atau Streaming tautan langsung di obrolan suara.
 /channelplay [Chat username or id] - Hubungkan channel ke grup dan streaming musik di obrolan suara channel dari grup Anda.
 /playlist  - Periksa Daftar Putar tersimpan Anda di server.
 /deleteplaylist - Hapus semua musik yang disimpan di daftar putar Anda.
 /play  - Mulai mainkan Daftar Putar tersimpan Anda dari Server.
+
+2️⃣ **<u>Admin dan Pengguna Auth :</u>**
+
 /pause or /cpause - Jeda streaming yang diputar.
 /resume or /cresume - Lanjutkan streaming yang dijeda.
 /mute or /cmute - Bisukan musik yang diputar.
@@ -50,7 +59,6 @@ play (audio) , vplay (video) , cplay, cvplay (channel)
 /seekback or /cseekback - Kembali mencari musik sesuai durasi.
 /skip or /cskip [Nomor (contoh : 3)] : Melewati musik ke nomor antrian yang ditentukan.
 /loop or /cloop [enable/disable] or [Angka antara 1-10] : Bot memutar lagu yang sedang diputar menjadi 1-10 kali pada obrolan suara."""
-
 
 HELP_3 = """🤖 <u>**Perintah Bot :**</u>
 
@@ -64,9 +72,6 @@ HELP_3 = """🤖 <u>**Perintah Bot :**</u>
 /lyrics [Nama Lagu] - Mencari Lirik untuk lagu tertentu di web.
 /song [Nama Trek] or [YT Link] - Unduh apa pun dari youtube dalam format mp3 atau mp4.
 /player - Dapatkan Panel Mainkan interaktif."""
-
-
-
 
 HELP_4 = """🗒 <u>**Perintah Ekstra :**</u>
 
