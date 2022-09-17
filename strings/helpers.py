@@ -1,6 +1,6 @@
-HELP_1 = """✅ **<u>Perintah Admin :</u>**
+HELP_1 = """👨‍⚖️ **<u>Perintah Admin :</u>**
 
-✅ **Pengelola Grup**.
+**Kelola grupmu dengan perintah berikut**.
 
 /pin [loud or notify] - Menyematkan pesan senyap atau beritahu anggota.
 /antich [on or off] - Mode anti Channel.
@@ -23,20 +23,19 @@ HELP_1 = """✅ **<u>Perintah Admin :</u>**
 /setgoodbye [Pesan] - Mengatur pesan perpisahan anggota keluar.
 /welcomehelp - Dapatkan format lengkap untuk setwelcome dan setgoodbye.
 
-✅ **Pengguna Auth**.
+🎩 **Pengguna Auth**.
 
 Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di obrolan Anda.
 
 /auth [Username] - Tambahkan pengguna ke daftar AUTH grup.
 /unauth [Username] - Hapus pengguna dari daftar AUTH grup.
 /authusers - Periksa daftar AUTH grup."""
-HELP_2 = """✅ <u>**Perintah Streaming :**</u>
-Perintah yang tersedia = play , vplay , cplay
-Perintah ForcePlay = playforce , vplayforce , cplayforce
+HELP_2 = """⚡ <u>**Perintah Streaming :**</u>
+
+play (audio) , vplay (video) , cplay, cvplay (channel)
+
 /play or /vplay or /cplay  - Bot akan mulai memainkan kueri yang Anda berikan di obrolan suara atau Streaming tautan langsung di obrolan suara.
-/playforce or /vplayforce or /cplayforce -  **Force Play** menghentikan trek yang sedang diputar pada obrolan suara dan mulai memutar trek yang dicari secara instan tanpa mengganggu/mengosongkan antrean.
-/channelplay [Chat username or id] or [Disable] - Hubungkan channel ke grup dan streaming musik di obrolan suara channel dari grup Anda.
-/channelplay linked - Menghubungkan ke Channel yang terhubung ke Grup. Sama seperti perintah diatas.
+/channelplay [Chat username or id] - Hubungkan channel ke grup dan streaming musik di obrolan suara channel dari grup Anda.
 /playlist  - Periksa Daftar Putar tersimpan Anda di server.
 /deleteplaylist - Hapus semua musik yang disimpan di daftar putar Anda.
 /play  - Mulai mainkan Daftar Putar tersimpan Anda dari Server.
@@ -50,11 +49,12 @@ Perintah ForcePlay = playforce , vplayforce , cplayforce
 /seek or /cseek - Teruskan mencari musik sesuai durasi.
 /seekback or /cseekback - Kembali mencari musik sesuai durasi.
 /skip or /cskip [Nomor (contoh : 3)] : Melewati musik ke nomor antrian yang ditentukan.
-/loop or /cloop [enable/disable] or [Angka antara 1-10] : Bot memutar musik yang sedang diputar menjadi 1-10 kali pada obrolan suara."""
+/loop or /cloop [enable/disable] or [Angka antara 1-10] : Bot memutar lagu yang sedang diputar menjadi 1-10 kali pada obrolan suara."""
 
-HELP_3 = """✅ <u>**Perintah Bot :**</u>
 
-/admins - Daftar admin atau staf Grup.
+HELP_3 = """🤖 <u>**Perintah Bot :**</u>
+
+/admins - Daftar admin atau Staf Grup.
 /id - Dapatkan ID Grup [balas ke pengguna untuk mendapatkan ID pengguna].
 /info - Dapatkan informasi tentang pengguna.
 /sg - Dapatkan riwayat nama pengguna.
@@ -64,14 +64,17 @@ HELP_3 = """✅ <u>**Perintah Bot :**</u>
 /lyrics [Nama Lagu] - Mencari Lirik untuk lagu tertentu di web.
 /song [Nama Trek] or [YT Link] - Unduh apa pun dari youtube dalam format mp3 atau mp4.
 /player - Dapatkan Panel Mainkan interaktif.
-**c** singkatan dari pemutaran di Channel.
-/queue or /cqueue - Periksa Daftar Antrian Streaming."""
+**c** singkatan dari pemutaran di Channel."""
 
 
-HELP_4 = """✅ <u>**Perintah Ekstra :**</u>
+
+HELP_4 = """🗒 <u>**Perintah Ekstra :**</u>
+
 /start - Memulai Bot.
 /help  - Dapatkan Menu  Perintah dengan penjelasan rinci tentang perintah.
 /setting - Dapatkan pengaturan grup lengkap dengan tombol sebaris.
+/channelplay linked - Menghubungkan ke Channel yang terhubung ke Grup.
+/queue or /cqueue - Periksa Daftar Antrian Streaming.
 /ping - Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
 /quote - Mendapatkan kutipan secara acak.
 /image "kata kunci" - Cari gambar di google.
@@ -82,9 +85,6 @@ HELP_4 = """✅ <u>**Perintah Ekstra :**</u>
 /logo [teks/nama] - Membuat logo secara acak
 /wlogo [teks/nama] - Membuat logo keren
 /edit [balas ke media] - Edit foto"""
-
-
-
 
 
 
