@@ -51,7 +51,7 @@ curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-ge
 ```
 > 6. Clone the Repository :
 ```console
-git clone https://github.com/Reyzuuu/ReyzuMusic &&  cd ReyzuMusic
+git clone https://github.com/forktukang/forktukang &&  cd forktukang
 ```
 > 7. Install Requirement :
 ```console
