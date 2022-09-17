@@ -70,7 +70,7 @@ HELP_3 = """🤖 <u>**Perintah Bot :**</u>
 /id - Dapatkan ID Grup [balas ke pengguna untuk mendapatkan ID pengguna].
 /sg - Dapatkan riwayat nama pengguna.
 /ping - Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
-/stats - Dapatkan 10 Trek Teratas.
+/stats - Dapatkan statistik Bot.
 /speedtest - periksa kecepatan Bot di server.
 /sudolist - Periksa Pengguna Sudo.
 
