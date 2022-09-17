@@ -23,13 +23,13 @@ HELP_1 = """👨‍⚖️ **<u>Perintah Admin :</u>**
 /setgoodbye [Pesan] - Mengatur pesan perpisahan anggota keluar.
 /welcomehelp - Dapatkan format lengkap untuk setwelcome dan setgoodbye.
 
-🎩 **Pengguna Auth**.
+🎩 **Pengguna Auth :**
 
 Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di obrolan Anda.
 
-/auth [Username] - Tambahkan pengguna ke daftar AUTH grup.
-/unauth [Username] - Hapus pengguna dari daftar AUTH grup.
-/authusers - Periksa daftar AUTH grup."""
+/auth [Username] - Tambahkan pengguna ke daftar Auth Grup.
+/unauth [Username] - Hapus pengguna dari daftar Auth Grup.
+/authusers - Periksa daftar Auth Grup."""
 HELP_2 = """⚡ <u>**Perintah Streaming :**</u>
 
 play (audio) , vplay (video) , cplay, cvplay (channel)
