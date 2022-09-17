@@ -58,13 +58,13 @@ HELP_3 = """🤖 <u>**Perintah Bot :**</u>
 /id - Dapatkan ID Grup [balas ke pengguna untuk mendapatkan ID pengguna].
 /info - Dapatkan informasi tentang pengguna.
 /sg - Dapatkan riwayat nama pengguna.
-/tl "kode bahasa" - Menerjemahkan kalimat [/tl id Hello guys] atau balas ke pengguna.
+/tl "kode bahasa" - Menerjemahkan kalimat contoh : /tl id Hello guys atau "balas ke pesan".
 /stats - Dapatkan 10 Trek Teratas.
 /sudolist - Periksa Pengguna Sudo.
 /lyrics [Nama Lagu] - Mencari Lirik untuk lagu tertentu di web.
 /song [Nama Trek] or [YT Link] - Unduh apa pun dari youtube dalam format mp3 atau mp4.
-/player - Dapatkan Panel Mainkan interaktif.
-**c** singkatan dari pemutaran di Channel."""
+/player - Dapatkan Panel Mainkan interaktif."""
+
 
 
 
