@@ -34,7 +34,14 @@ Owner akan segera mambalas pesan anda.`
 /setwelcome (Pesan) - Atur pesan sambutan anggota masuk.
 /setgoodbye (Pesan) - Atur pesan perpisahan anggota keluar.
 /welcomehelp - Dapatkan format lengkap untuk setwelcome dan setgoodbye.
-**Contoh :** `/setwelcome Hai selamat bergabung di Grup ini.`"""
+**Contoh :** `/setwelcome Hai selamat bergabung di Grup ini.`
+
+4️⃣ ** Force Subscribe
+
+/fsub (channel username) - Paksa anggota Grup berlangganan ke Channel.
+/fsub disable - Menghentikan Force Subscibe.
+/fsub clear - Membatalkan bisu untuk semua anggota yang dibisukan.
+"""
 
 HELP_2 = """⚡ <u>**Perintah Streaming :**</u>
 
