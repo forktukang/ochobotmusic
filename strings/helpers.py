@@ -48,7 +48,7 @@ HELP_2 = """⚡ <u>**Perintah Streaming :**</u>
 
 /playlist  - Periksa Daftar Putar tersimpan Anda di server.
 /deleteplaylist - Hapus semua yang disimpan di daftar putar Anda.
-/play - Mulai mainkan Daftar Putar tersimpan Anda dari Server.
+/play - Mainkan Daftar Putar tersimpan Anda.
 /queue or /cqueue - Periksa Daftar Antrian Streaming.
 
 3️⃣ Admin dan Pengguna Auth
@@ -57,16 +57,16 @@ HELP_2 = """⚡ <u>**Perintah Streaming :**</u>
 /resume or /cresume - Lanjutkan streaming yang dijeda.
 /mute or /cmute - Bisukan musik yang diputar.
 /unmute or /cunmute - Suarakan musik yang dibisukan.
-/skip or /cskip - Lewati musik yang sedang diputar.
+/skip or /cskip - Lompati musik yang sedang diputar.
 /stop or /cstop - Hentikan pemutaran musik.
 /shuffle or /cshuffle - Secara acak mengacak daftar putar yang antri.
 /seek or /cseek - Teruskan mencari musik sesuai durasi.
 /seekback or /cseekback - Kembali mencari musik sesuai durasi.
-/skip or /cskip (nomor) : Melewati musik ke nomor antrian yang ditentukan.
+/skip or /cskip (nomor) - Lompat ke nomor antrian yang ditentukan.
 
 4️⃣ Loop
 
-/loop or /cloop (Angka 1-10) : Bot mengulagi lagu yang sedang diputar menjadi 1-10 kali pada obrolan suara. contoh : `/loop 3` bot akan mengulang lagu sebanyak 3 kali"""
+/loop or /cloop (Angka 1-10) - contoh : `/loop 3`. Bot mengulagi trek yang sedang diputar menjadi 3 kali pada obrolan suara."""
 
 HELP_3 = """🤖 <u>**Perintah Bot :**</u>
 
