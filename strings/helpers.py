@@ -2,8 +2,8 @@ HELP_1 = """👨‍⚖️ **<u>Perintah Admin :</u>**
 
 1️⃣ **Perintah Dasar**
 
-/pin (loud or notify) - Sematkan pesan senyap atau beritahu anggota.
-/antich (on or off) - Mode anti Channel.
+/pin (loud/notify) - Sematkan pesan senyap atau beritahu anggota.
+/antich (on/off) - Mode anti Channel.
 /ban - Blokir pengguna.
 /unban - Buka blokir pengguna.
 /sban - Blokir pengguna secara diam-diam.
@@ -12,7 +12,7 @@ HELP_1 = """👨‍⚖️ **<u>Perintah Admin :</u>**
 /warn - Peringati pengguna.
 /dwarn - Peringati pengguna dan menghapus pesan.
 /restart - Mulai ulang Bot untuk grup Anda.
-/connect (ID atau username Grup) - Menghubungkan Bot ke Grup.
+/connect (ID/link) - Menghubungkan Bot ke Grup.
 
 2️⃣ **Modul Filter**
 
