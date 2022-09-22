@@ -119,18 +119,16 @@ HELP_4 = """🗒 <u>**Perintah Ekstra :**</u>
 `/edit` (balas ke media) - Edit foto.
 `/asupan` - Dapatkan video asupan secara acak.
 
-Catatan
-
+Catatan :
 `/get` (nama catatan) - Dapatkan catatan yang tersimpan di Grup
 `/notes` atau `/saved` - Daftar catatan yang tersimpan di Grup
 
 Admin
-
 `/save` (nama catatan) (isi Catatan) - Simpan catatan di Grup.
 `/save` (nama catatan) - Balas ke pesan untuk menyimpan catatan.
 
 Contoh :
-/save peraturan Berikut ini adalah peraturan grup."""
+`/save` Ochobot Ochobot adalah robot."""
 
 
 HELP_5 = """🔰 **<u>Tambah & Hapus Pengguna Sudo :</u>**
