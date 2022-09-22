@@ -122,13 +122,9 @@ HELP_4 = """🗒 <u>**Perintah Ekstra :**</u>
 Catatan :
 `/get` (nama catatan) - Dapatkan catatan yang tersimpan di Grup
 `/notes` atau `/saved` - Daftar catatan yang tersimpan di Grup
-
 Perintah Admin :
 `/save` (nama catatan) (isi Catatan) - Simpan catatan di Grup.
-`/save` (nama catatan) - Balas ke pesan untuk menyimpan catatan.
-
-Contoh :
-`/save` Ochobot Ochobot adalah robot."""
+`/save` (nama catatan) - Balas ke pesan untuk menyimpan catatan."""
 
 
 HELP_5 = """🔰 **<u>Tambah & Hapus Pengguna Sudo :</u>**
