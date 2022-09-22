@@ -123,7 +123,7 @@ Catatan :
 `/get` (nama catatan) - Dapatkan catatan yang tersimpan di Grup
 `/notes` atau `/saved` - Daftar catatan yang tersimpan di Grup
 
-Admin
+Perintah Admin :
 `/save` (nama catatan) (isi Catatan) - Simpan catatan di Grup.
 `/save` (nama catatan) - Balas ke pesan untuk menyimpan catatan.
 
