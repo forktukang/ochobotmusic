@@ -12,6 +12,7 @@ HELP_1 = """👨‍⚖️ **<u>Perintah Admin :</u>**
 `/warn` - Peringati pengguna.
 `/dwarn` - Peringati pengguna dan menghapus pesan.
 `/restart` - Mulai ulang Bot untuk grup Anda.
+`/setting` - Dapatkan pengaturan grup lengkap dengan tombol sebaris.
 `/connect ID/link` - Menghubungkan Bot ke Grup.
 
 2️⃣ **Modul Filter**
@@ -100,15 +101,14 @@ HELP_3 = """🤖 <u>**Perintah Bot :**</u>
 
 3️⃣ Download
 
-`/lyrics` (Nama Lagu) - Mencari Lirik untuk lagu tertentu di web.
 `/song` (Nama Trek atau YT Link) - Unduh apa pun dari youtube dalam format mp3 atau mp4.
-`/player` - Dapatkan Panel Mainkan interaktif."""
+`/player` - Dapatkan Panel Mainkan interaktif.
+`/lyrics` (Nama Lagu) - Mencari Lirik untuk lagu tertentu di web."""
 
 HELP_4 = """🗒 <u>**Perintah Ekstra :**</u>
 
 `/start` - Memulai Bot.
 `/help`  - Dapatkan Menu  Perintah dengan penjelasan rinci tentang perintah.
-`/setting` - Dapatkan pengaturan grup lengkap dengan tombol sebaris.
 `/quote` - Mendapatkan kutipan secara acak.
 `/image` "kata kunci" - Cari gambar di google.
 `/tgm` - Balas ke media untuk dapatkan link Telegraph.
@@ -116,7 +116,21 @@ HELP_4 = """🗒 <u>**Perintah Ekstra :**</u>
 `/json` - Dapatkan info detail pengguna.
 `/logo` (teks/nama) - Membuat logo secara acak.
 `/wlogo` (teks/nama) - Membuat logo keren.
-`/edit` (balas ke media) - Edit foto"""
+`/edit` (balas ke media) - Edit foto.
+`/asupan` - Dapatkan video asupan secara acak.
+
+Catatan
+
+`/get` (nama catatan) - Dapatkan catatan yang tersimpan di Grup
+`/notes` atau `/saved` - Daftar catatan yang tersimpan di Grup
+
+Admin
+
+`/save` (nama catatan) (isi Catatan) - Simpan catatan di Grup.
+`/save` (nama catatan) - Balas ke pesan untuk menyimpan catatan.
+
+Contoh :
+/save peraturan Berikut ini adalah peraturan grup."""
 
 
 HELP_5 = """🔰 **<u>Tambah & Hapus Pengguna Sudo :</u>**
