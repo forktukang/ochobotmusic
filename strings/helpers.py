@@ -84,7 +84,7 @@ HELP_3 = """🤖 <u>**Perintah Bot :**</u>
 `/info` - Dapatkan informasi tentang pengguna.
 `/admins` - Daftar Admin atau Staf Grup.
 `/report` - Laporkan ke Admin.
-`/id` - Dapatkan ID Grup <balas ke pengguna untuk mendapatkan ID pengguna>.
+`/id` - Dapatkan ID anda.
 `/sg` - Dapatkan riwayat nama pengguna.
 `/ping` - Periksa statistik Ram, Cpu, dll dari Bot.
 `/stats` - Dapatkan statistik Bot.
@@ -119,12 +119,18 @@ HELP_4 = """🗒 <u>**Perintah Ekstra :**</u>
 `/edit` (balas ke media) - Edit foto.
 `/asupan` - Dapatkan video asupan secara acak.
 
-Catatan :
+📒 Catatan
+
 `/get` (nama catatan) - Dapatkan catatan yang tersimpan di Grup
 `/notes` atau `/saved` - Daftar catatan yang tersimpan di Grup
 Perintah Admin :
 `/save` (nama catatan) (isi Catatan) - Simpan catatan di Grup.
-`/save` (nama catatan) - Balas ke pesan untuk menyimpan catatan."""
+`/save` (nama catatan) - Balas ke pesan untuk menyimpan catatan.
+
+⌨ AFK
+
+`/afk` (alasan) - Tandai diri anda sebagai AFK.
+Saat afk diaktifkan maka Bot akan membaritahukan ke anggota grup saat Anda di mention."""
 
 
 HELP_5 = """🔰 **<u>Tambah & Hapus Pengguna Sudo :</u>**
