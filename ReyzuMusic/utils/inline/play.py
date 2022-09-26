@@ -106,25 +106,16 @@ def telegram_markup_timer(_, chat_id, played, dur):
 ## Inline without Timer Bar
 
 
-def stream_markup(_, videoid, chat_id, dur):
-    played_sec = time_to_sec(played)
-    total_sec = time_to_sec(dur)
-
-    x, y = str(round(played_sec/total_sec,1)).split(".")
-    pos = int(y)
-
-    line = "─"
-    circle = "♡"
-
-    bar = line*(pos-1)
-    bar += circle
-    bar += line*(11-len(bar))
+def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{bar} {dur}",
-                callback_data="GetTimer",
-            )
+                text="🔀 Shuffle",
+                callback_data=f"ADMIN Shuffle|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="🔁 Loop 3x", callback_data=f"ADMIN Loop|{chat_id}"
+            ),
         ],
         [
             InlineKeyboardButton(
