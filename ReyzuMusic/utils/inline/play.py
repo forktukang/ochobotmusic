@@ -1,7 +1,7 @@
 import random
-
+from ReyzuMusic import app
 from pyrogram.types import InlineKeyboardButton
-from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP, BOT_USERNAME
+from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
 
 ## After Edits with Timer Bar
 
