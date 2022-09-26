@@ -2,6 +2,7 @@ import random
 
 from pyrogram.types import InlineKeyboardButton
 from ReyzuMusic import app
+from typing import Union
 
 ## After Edits with Timer Bar
 
