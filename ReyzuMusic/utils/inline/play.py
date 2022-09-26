@@ -110,11 +110,12 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🔁 Loop", callback_data=f"ADMIN Loop|{chat_id}"
+                text="⏮ 30 Seconds",
+                callback_data=f"ADMIN 3|{chat_id}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
+                text="⏭ 30 Seconds",
+                callback_data=f"ADMIN 4|{chat_id}",
             ),
         ],
         [
