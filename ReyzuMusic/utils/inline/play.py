@@ -1,8 +1,6 @@
 import random
-from ReyzuMusic import app
+
 from pyrogram.types import InlineKeyboardButton
-from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
-from ReyzuMusic import app
 
 ## After Edits with Timer Bar
 
@@ -112,8 +110,8 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url=f"https://t.me/{BOT_USERNAME}?startgroup=true", 
-            )
+                url=f"https://t.me/ReyzuRobot?startgroup=true"
+            ),
         ],
         [
             InlineKeyboardButton(
