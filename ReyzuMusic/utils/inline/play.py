@@ -114,7 +114,7 @@ def stream_markup(_, videoid, chat_id):
                 callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔁 Loop", callback_data=f"ADMIN Loop|{chat_id}"
+                text="🔁 Loop 3x", callback_data=f"ADMIN Loop|{chat_id}"
             ),
         ],
         [
