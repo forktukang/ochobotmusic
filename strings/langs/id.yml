@@ -286,6 +286,8 @@ PL_B_8 : "🔢 Top 10"
 PL_B_9 : "🤖 Global Top 10 Tracks"
 PL_B_10 : "🏘 Group's Top 10 Tracks"
 PL_B_11 : "👤 Personal Top 10 Tracks"
+PL_B_12 : "🔀 Shuffle"
+PL_B_13 : "🔁 Loop 3x"
 
 #Settings
 ST_B_1 : "🔊 Aud Quality"
