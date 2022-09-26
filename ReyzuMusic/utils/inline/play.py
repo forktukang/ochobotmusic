@@ -110,7 +110,7 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url=f"https://t.me/ReyzuRobot?startgroup=true"
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
             ),
         ],
         [
