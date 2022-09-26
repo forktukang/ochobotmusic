@@ -110,11 +110,11 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🔀 Shuffle",
+                text="_[PL_B_12]",
                 callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔁 Loop 3x", callback_data=f"ADMIN Loop|{chat_id}"
+                text="_[PL_B_13]", callback_data=f"ADMIN Loop|{chat_id}"
             ),
         ],
         [
