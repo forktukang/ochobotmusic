@@ -1,6 +1,7 @@
 import random
 
 from pyrogram.types import InlineKeyboardButton
+from ReyzuMusic import app
 
 ## After Edits with Timer Bar
 
