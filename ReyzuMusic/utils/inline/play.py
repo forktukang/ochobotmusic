@@ -1,7 +1,7 @@
 import random
 
 from pyrogram.types import InlineKeyboardButton
-
+from ReyzuMusic import app
 
 ## After Edits with Timer Bar
 
@@ -108,6 +108,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
 def stream_markup(_, videoid, chat_id):
     buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["S_B_5"],
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+            ),
+        ],
         [
             InlineKeyboardButton(
                 text="⏸", callback_data=f"ADMIN Pause|{chat_id}"
