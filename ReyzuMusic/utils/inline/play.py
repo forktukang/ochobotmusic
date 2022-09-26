@@ -3,6 +3,7 @@ import random
 from pyrogram.types import InlineKeyboardButton
 from ReyzuMusic import app
 from typing import Union
+from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP, BOT_USERNAME
 
 ## After Edits with Timer Bar
 
