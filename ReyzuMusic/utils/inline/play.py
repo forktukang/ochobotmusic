@@ -2,6 +2,7 @@ import random
 
 from pyrogram.types import InlineKeyboardButton
 
+
 ## After Edits with Timer Bar
 
 def time_to_sec(time: str):
@@ -29,7 +30,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     pos = int(y)
 
     line = "─"
-    circle = "●"
+    circle = "♡"
 
     bar = line*(pos-1)
     bar += circle
@@ -77,7 +78,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
     pos = int(y)
 
     line = "─"
-    circle = "●"
+    circle = "♡"
 
     bar = line*(pos-1)
     bar += circle
@@ -105,8 +106,17 @@ def telegram_markup_timer(_, chat_id, played, dur):
 ## Inline without Timer Bar
 
 
-def stream_markup(_, BOT_USERNAME, videoid, chat_id):
+def stream_markup(_, videoid, chat_id):
     buttons = [
+        [
+            InlineKeyboardButton(
+                text="🔀 Shuffle",
+                callback_data=f"ADMIN Shuffle|{chat_id}",
+            ),
+            InlineKeyboardButton(
+                text="🔁 Loop", callback_data=f"ADMIN Loop|{chat_id}"
+            ),
+        ],
         [
             InlineKeyboardButton(
                 text="⏸", callback_data=f"ADMIN Pause|{chat_id}"
