@@ -1,6 +1,6 @@
-HELP_1 = """👨‍⚖️ **<u>Perintah Admin :</u>**
+HELP_1 = """👨‍⚖️ **<u>text=_["command_1"], :</u>**
 
-1️⃣ **Perintah Dasar**
+1️⃣ ** text=_["command_2"],**
 
 `/pin loud/notify` - Sematkan pesan senyap atau beritahu anggota.
 `/antich on/off` - Mode anti Channel.
