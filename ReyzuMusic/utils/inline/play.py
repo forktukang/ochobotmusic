@@ -110,7 +110,7 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="⑇⑉⑈⑆⑉⑈⑇⑆⑉⑈⑇⑆⑉⑈⑇⑆",
+                text="⑇⑉⑈⑆⑉⑈⑇⑆⑉⑈⑇⑆⑉⑈⑇⑆⑇⑈⑉⑆⑇⑉",
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
         ],
