@@ -125,7 +125,7 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
+                text="▁▄▂▇▄▅▄▅▃▁▄",
                 url=f"https://t.me/BotOchobot?startgroup=true"
             ),
         ],
@@ -161,7 +161,7 @@ def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
+                text="▁▄▂▇▄▅▄▅▃▁▄",
                 url=f"https://t.me/BotOchobot?startgroup=true"
             ),
         ],
