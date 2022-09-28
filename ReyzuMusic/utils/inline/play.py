@@ -122,8 +122,13 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
 
 def stream_markup(_, videoid, chat_id):
-    bar = random.choice(selections)
     buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["S_B_5"],
+                url=f"https://t.me/BotOchobot?startgroup=true"
+            ),
+        ],
         [
             InlineKeyboardButton(
                 text="⏸", callback_data=f"ADMIN Pause|{chat_id}"
@@ -153,8 +158,13 @@ def stream_markup(_, videoid, chat_id):
 
 
 def telegram_markup(_, chat_id):
-    bar = random.choice(selections)
     buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["S_B_5"],
+                url=f"https://t.me/BotOchobot?startgroup=true"
+            ),
+        ],
         [
             InlineKeyboardButton(
                 text="⏸", callback_data=f"ADMIN Pause|{chat_id}"
