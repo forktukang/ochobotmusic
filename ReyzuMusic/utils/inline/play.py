@@ -2,6 +2,21 @@ import random
 
 from pyrogram.types import InlineKeyboardButton
 
+selections = [
+    "▁▄▂▇▄▅▄▅▃▁▄",
+    "▁▃▇▂▅▁▄▇▄▅▃",
+    "▃▁▇▂▅▃▄▃▅",
+    "▃▄▂▄▇▅▃▁▄▅▁",
+    "▁▃▄▂▇▃▄▅▃",
+    "▃▁▄▂▅▃▁▄▇▃▅",
+    "▁▇▄▂▅▄▅▃▄▁▄",
+    "▁▃▅▇▂▅▄▁▄▃▇",
+    "▃▅▂▅▇▁▄▃▁▁▄",
+    "▇▅▂▅▃▁▄▄▃▁▃",
+    "▃▇▂▅▁▅▄▁▄▃▁",
+    "▅▄▇▂▅▂▄▁▄▇▁",
+    "▃▅▂▅▃▇▄▅▁▄▃",
+]
 
 ## After Edits with Timer Bar
 
@@ -107,13 +122,8 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
 
 def stream_markup(_, videoid, chat_id):
+    bar = random.choice(selections)
     buttons = [
-        [
-            InlineKeyboardButton(
-                text="⑇⑉⑈⑆⑉⑈⑇⑆⑉⑈⑇⑆⑉⑈⑇⑆⑇⑈⑉⑆⑇⑉⑈⑉⑆",
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
-            ),
-        ],
         [
             InlineKeyboardButton(
                 text="⏸", callback_data=f"ADMIN Pause|{chat_id}"
@@ -143,6 +153,7 @@ def stream_markup(_, videoid, chat_id):
 
 
 def telegram_markup(_, chat_id):
+    bar = random.choice(selections)
     buttons = [
         [
             InlineKeyboardButton(
