@@ -125,7 +125,7 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="▁▄▂▇▄▅▄▅▃▁▄",
+                text=_["PL_B_18"],
                 url=f"https://t.me/BotOchobot?startgroup=true"
             ),
         ],
