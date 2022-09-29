@@ -126,7 +126,8 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_7"], user_id=OWNER
+                text=_["S_B_5"],
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_18"],
