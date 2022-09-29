@@ -75,7 +75,7 @@ admin_34 : "Failed to seek the current stream."
 
 # Start
 start_1 : "Thanks for having me in {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
-start_2 : "Hello 👋, My name is {0}.\n\nClick on the buttons below for more information. If you're facing any problem in command you can contact developer or ask in support chat.\n\nGet help managing your group 👨‍🔧."
+start_2 : "Hello 👋, My name is {0}.\n\nClick on the buttons below for more information. If you're facing any problem in command you can contact my bot owner or ask in support chat.\n\nGet help managing your group 👨‍🔧."
 start_3 : "Welcome To {0}\n\nI don't need any **admin permission** to work ( until asked for ).\n\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
@@ -83,7 +83,7 @@ start_6 : "❗️ **Supergroup Needed** ❗️\n\nPlease convert your **group** 
 start_7 : "**Blacklisted Chat**\n\nYou're chat has been blacklisted by the Bot. Please ask any SudoUser to whitelist chat first. Check [Sudolist from here]({0})"
 
 # Help
-help_1 : "Hello 👋, My name is {0}.\n\nClick on the buttons below for more information. If you're facing any problem in command you can contact developer or ask in support chat.\n\nGet help managing your group 👨‍🔧."
+help_1 : "Hello 👋, My name is {0}.\n\nClick on the buttons below for more information. If you're facing any problem in command you can contact my bot owner or ask in support chat.\n\nGet help managing your group 👨‍🔧."
 help_2 : "Contact me in PM for help."
 
 # Settings
