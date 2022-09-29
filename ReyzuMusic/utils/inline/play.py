@@ -126,10 +126,10 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🔇 Mute", callback_data=f"ADMIN Mute|{chat_id}"
+                text=_["PL_B_19"], callback_data=f"ADMIN Mute|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="🔊 Unmute",
+                text=_["PL_B_20"],
                 callback_data=f"ADMIN Unmute|{chat_id}",
             ),
         ],
