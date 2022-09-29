@@ -123,15 +123,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
 
 def stream_markup(_, videoid, chat_id):
-    buttons.append = [
+    buttons.append(
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-            ),
-            InlineKeyboardButton(
-                text=_["PL_B_18"],
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
         ],
         [
