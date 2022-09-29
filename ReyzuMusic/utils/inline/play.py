@@ -167,10 +167,6 @@ def telegram_markup(_, chat_id):
             InlineKeyboardButton(
                 text=_["ST_B_6"], callback_data="LG"
             ),
-            InlineKeyboardButton(
-                text=_["PL_B_18"],
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
-            ),
         ],
         [
             InlineKeyboardButton(
