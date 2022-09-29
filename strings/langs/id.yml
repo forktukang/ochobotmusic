@@ -292,7 +292,7 @@ PL_B_14 : "⏮ 10 Seconds"
 PL_B_15 : "⏭ 10 Seconds"
 PL_B_16 : "⏭ 30 Seconds"
 PL_B_17 : "⏮ 30 Seconds"
-PL_B_18 : "Control Panel Menu"
+PL_B_18 : "⚙ Control Panel Menu"
 
 #Settings
 ST_B_1 : "🔊 Aud Quality"
