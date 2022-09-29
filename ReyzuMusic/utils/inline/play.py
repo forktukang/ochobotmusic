@@ -165,8 +165,11 @@ def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="▁▄▂▇▄▅▄▅▃▁▄",
-                url=f"https://t.me/BotOchobot?startgroup=true"
+                text=_["ST_B_6"], callback_data="LG"
+            ),
+            InlineKeyboardButton(
+                text=_["PL_B_18"],
+                callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
         ],
         [
