@@ -40,7 +40,7 @@ async def start_comm(client, message: Message, _):
         if name[0:4] == "help":
             keyboard = help_pannel(_)
             return await message.reply_text(
-                _["help_1"], reply_markup=keyboard
+                _["help_1"].format(config.MUSIC_BOT_NAME),
             )
         if name[0:4] == "song":
             return await message.reply_text(_["song_2"])
