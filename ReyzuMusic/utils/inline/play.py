@@ -1,6 +1,7 @@
 import random
-
+from typing import Union
 from pyrogram.types import InlineKeyboardButton
+from ReyzuMusic import app
 
 selections = [
     "▁▄▂▇▄▅▄▅▃▁▄",
