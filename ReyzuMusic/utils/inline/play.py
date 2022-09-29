@@ -130,7 +130,7 @@ def stream_markup(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text=_["PL_B_18"],
-                url=f"https://t.me/BotOchobot?startgroup=true"
+                callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
         ],
         [
