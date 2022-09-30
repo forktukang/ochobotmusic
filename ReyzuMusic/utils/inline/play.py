@@ -126,7 +126,7 @@ def stream_markup(_, videoid, chat_id, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_7"], user_id=OWNER
+                text=_["S_B_7"], user_id=OWNER|{chat_id}
             ),
             InlineKeyboardButton(
                 text=_["PL_B_20"],
