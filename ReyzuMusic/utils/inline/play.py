@@ -1,7 +1,6 @@
 import random
-from typing import Union
+
 from pyrogram.types import InlineKeyboardButton
-from ReyzuMusic import app
 
 selections = [
     "▁▄▂▇▄▅▄▅▃▁▄",
@@ -122,11 +121,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
 ## Inline without Timer Bar
 
 
-def stream_markup(_, videoid, chat_id, OWNER: Union[bool, int] = None):
+def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_7"], user_id=OWNER|{chat_id}
+                text=_["PL_B_19"], callback_data=f"ADMIN Mute|{chat_id}"
             ),
             InlineKeyboardButton(
                 text=_["PL_B_20"],
