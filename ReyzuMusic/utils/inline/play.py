@@ -123,7 +123,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
 
 def stream_markup(_, videoid, chat_id, OWNER: Union[bool, int] = None):
-    buttons = [
+    buttons.append(
         [
             InlineKeyboardButton(
                 text=_["S_B_7"], user_id=OWNER|{chat_id}
