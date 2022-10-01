@@ -13,7 +13,7 @@ from ReyzuMusic.utils.decorators import (ActualAdminCB, language,
 
 
 def lanuages_keyboard(_):
-    keyboard = InlineKeyboard(row_width=3)
+    keyboard = InlineKeyboard(row_width=1)
     keyboard.add(
         *[
             (
