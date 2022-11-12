@@ -82,7 +82,7 @@ HELP_3 = """🤖 <u>**Perintah Bot :**</u>
 1️⃣ Informasi
 
 `/info` - Dapatkan informasi tentang pengguna.
-`/admins` - Daftar Admin atau Staf Grup.
+`/staff` - Daftar Admin atau Staf Grup.
 `/report` - Laporkan ke Admin.
 `/id` - Dapatkan ID anda.
 `/sg` - Dapatkan riwayat nama pengguna.
