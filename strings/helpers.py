@@ -62,6 +62,9 @@ HELP_2 = """⚡ <u>**Perintah Streaming :**</u>
 
 3️⃣ Admin dan Pengguna Auth
 
+`/auth` - Tambahkan pengguna ke daftar AUTH grup.
+`/unauth` - Hapus pengguna dari daftar AUTH grup.
+`/authusers` - Periksa daftar AUTH grup.
 `/pause` or `/cpause` - Jeda streaming yang diputar.
 `/resume` or `/cresume` - Lanjutkan streaming yang dijeda.
 `/mute` or `/cmute` - Bisukan musik yang diputar.
