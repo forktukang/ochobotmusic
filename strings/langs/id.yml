@@ -3,19 +3,19 @@ name : 🏴󠁧󠁢󠁥󠁮󠁧󠁿 English
 # General Strings
 general_1 : "Reply to a user's message or give username/user_id."
 general_2 : "Error! Wrong Usage of Command."
-general_3 : "Some **exception occured** while processing your query.\n\nException Type:- {0}"
+general_3 : "Some **exception occured** while processing your query.\n\nException Type :- {0}"
 general_4 : "You're an anonymous admin in this chat group!\nRevert back to User Account From Admin Rights."
 general_5 : "You need to be admin with manage voice chat rights to perform this action."
 general_6 : "Bot isn't streaming on voice chat."
 
 # Classes - Telegram.py
-tg_1 : "Bot is **overloaded** with downloads right now.\n\n**Try After:** {0} (__expected time__)"
+tg_1 : "Bot is **overloaded** with downloads right now.\n\n**Try After :** {0} (__expected time__)"
 tg_2 : "Failed to download the media from telegram."
 
 # Core - Call.py
 call_1 : "Bot requires **Admin** Permission to invite assistant account to your channel."
-call_2 : "Assistant is banned in your group or channel, please unban.\n\n**Assistant Username:** @{0}\n**Assistant ID:** {1}"
-call_3 : "Exception Occured While Inviting Assistant Account to your chat.\n\n**Reason**: {0}"
+call_2 : "Assistant is banned in your group or channel, please unban.\n\n**Assistant Username :** @{0}\n**Assistant ID :** {1}"
+call_3 : "Exception Occured While Inviting Assistant Account to your chat.\n\n**Reason** : {0}"
 call_4 : "Bot requires **Invite Users Via Link** Permission to invite assistant account to your chat group."
 call_5 : "Assistant Account will be joining in 5 Seconds..Please Wait!"
 call_6 : "Assistant Account[{0}] Joined Successfully.\n\nStarting Music Now"
@@ -32,7 +32,7 @@ auth_3 : "Already in the Authorised Users List."
 auth_4 : "Removed from Authorised Users List of this Group."
 auth_5 : "Targeted user is not an Authorised User."
 auth_6 : "Fetching Authorised Users... Please Wait"
-auth_7 : "**Authorised Users List[AUL]:**\n\n"
+auth_7 : "**Authorised Users List[AUL] :**\n\n"
 auth_8 : "┗ Added By:-"
 
 # PLUGINS - Admins
