@@ -3,19 +3,19 @@ name : 🇮🇩 Indonesian
 # General Strings
 general_1 : "Balas pesan pengguna atau berikan nama pengguna/id_pengguna"
 general_2 : "Kesalahan! Penggunaan Perintah yang Salah."
-general_3 : "Beberapa **pengecualian terjadi** saat memproses kueri Anda.\n\nJenis Pengecualian:- {0}"
+general_3 : "Beberapa **pengecualian terjadi** saat memproses kueri Anda.\n\nJenis Pengecualian :- {0}"
 general_4 : "Anda adalah admin anonim di grup obrolan ini!\nKembali ke Akun Pengguna Dari Hak Admin."
 general_5 : "Anda harus menjadi admin dengan mengelola hak obrolan suara untuk melakukan tindakan ini."
 general_6 : "Bot tidak streaming di voice chat."
 
 # Classes - Telegram.py
-tg_1 : "Bot **kelebihan beban** dengan unduhan sekarang.\n\n**Coba Setelah:** {0} (__waktu yang diharapkan__)"
+tg_1 : "Bot **kelebihan beban** dengan unduhan sekarang.\n\n**Coba Setelah :** {0} (__waktu yang diharapkan__)"
 tg_2 : "Gagal mengunduh media dari telegram."
 
 # Core - Call.py
 call_1 : "Bot memerlukan Izin **Admin** untuk mengundang akun asisten ke saluran Anda."
-call_2 : "Asisten diblokir di grup atau saluran Anda, harap batalkan pemblokiran.\n\n**Nama Pengguna Asisten:** @{0}\n**ID Asisten:** {1}"
-call_3 : "Pengecualian Terjadi Saat Mengundang Akun Asisten ke chat Anda.\n\n**Alasan**: {0}"
+call_2 : "Asisten diblokir di grup atau saluran Anda, harap batalkan pemblokiran.\n\n**Nama Pengguna Asisten :** @{0}\n**ID Asisten :** {1}"
+call_3 : "Pengecualian Terjadi Saat Mengundang Akun Asisten ke chat Anda.\n\n**Alasan** : {0}"
 call_4 : "Bot memerlukan **Undang Pengguna Melalui Tautan** Izin untuk mengundang akun asisten ke grup obrolan Anda."
 call_5 : "Akun Asisten akan bergabung dalam 5 Detik.. Harap Tunggu!"
 call_6 : "Akun Asisten[{0}] Berhasil Bergabung.\n\nMulai Musik Sekarang"
@@ -32,7 +32,7 @@ auth_3 : "Sudah ada di Daftar Pengguna Resmi."
 auth_4 : "Dihapus dari Daftar Pengguna Resmi Grup ini."
 auth_5 : "Pengguna yang ditargetkan bukanlah Pengguna yang Sah."
 auth_6 : "Mengambil Pengguna Resmi... Harap Tunggu"
-auth_7 : "**Daftar Pengguna Resmi[AUL]:**\n\n"
+auth_7 : "**Daftar Pengguna Resmi[AUL] :**\n\n"
 auth_8 : "┗ Ditambahkan Oleh:-"
 
 # PLUGINS - Admins
