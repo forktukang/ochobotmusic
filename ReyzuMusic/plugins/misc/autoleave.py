@@ -70,7 +70,7 @@ async def auto_end():
                 try:
                     await app.send_message(
                         chat_id,
-                        "Tidak ada aktivitas di obrolan. Bot telah dihentikan.",
+                        "Tidak ada aktivitas di obrolan. Streaming telah dihentikan.",
                     )
                 except:
                     continue
